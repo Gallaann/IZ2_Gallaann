@@ -11,7 +11,7 @@ int main() {
 //    clock_t begin4 = clock();
 //    clock_t begin5 = clock();
     size_t amount;
-    work(10000);
+    work(amount);
 //    clock_t end = clock();
 //    clock_t end2 = clock();
 //    clock_t end3 = clock();

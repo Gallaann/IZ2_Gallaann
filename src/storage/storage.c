@@ -60,4 +60,6 @@ void print_storage(Storage* storage){
 void free_storage(Storage* storage){
     free(storage->points);
     storage->points = NULL;
+    free(storage->length);
+    storage->length = NULL;
 }
